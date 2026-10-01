@@ -51,9 +51,15 @@ Projelerimin büyük çoğunluğu tescilli yazılımlar ve fikri mülkiyet (IP) 
 </p>
 
 <p align="center">
-  <img src="assets/alphagravity_3d_topology.png" alt="AlphaGravity 3D Semantik Topoloji ve Bilgi Mimarisi" width="90%" />
+  <img src="assets/alphagravity_3d_topology.png" alt="AlphaGravity 3D Semantik Topoloji ve Bilgi Mimarisi" width="95%" />
   <br/>
-  <sub><b>AlphaGravity Canlı 3D Semantik Sinir Topolojisi:</b> Veri Altyapısı ➔ Güvenlik & Sistem ➔ Finans & Muhasebe ➔ İş Süreçleri ➔ AI Beyin Kökü</sub>
+  <sub><b>Şekil 1: AlphaGravity Canlı 3D Semantik Sinir Topolojisi</b> — Tüm kurumsal katmanların canlı bağlantı matrisi</sub>
+</p>
+
+<p align="center">
+  <img src="assets/alphagravity_node_inspection.png" alt="AlphaGravity İnteraktif Düğüm & Kriptografik AES-256 İncelemesi" width="95%" />
+  <br/>
+  <sub><b>Şekil 2: İnteraktif Düğüm & Sinaps İnceleme Modu</b> — "GÜVENLİK & SİSTEM" katmanı altında donanım düzeyinde AES-256 disk şifreleme ve aktif sinaps bağlarının analizi</sub>
 </p>
 
 **AlphaGravity**, işletmelerin ve bağımsız araştırmacıların hassas verilerini dış dünyadan tamamen izole ederek işleyen, yerel LLM inference motorunu, iki yönlü sesli asistanı ve 3 boyutlu interaktif bilgi haritasını bir araya getiren amiral gemisi masaüstü yapay zeka istasyonudur.
@@ -102,9 +108,13 @@ flowchart TB
 ```
 
 #### 🔬 AlphaGravity'nin Öne Çıkan Mimari Yetenekleri:
-1. **Dinamik 3D Semantik Bilgi Çizgesi (3D Neural Topology):**
-   * Yapay zekanın öğrendiği kavramlar ve dökümanlar arasındaki anlamsal ilişkiler, WebGL ve Three.js tabanlı canlı bir 3 boyutlu grafikte fizik motoruyla canlandırılır. 
-   * **Veri Altyapısı ➔ Güvenlik & Sistem ➔ Finans & Muhasebe ➔ İş Süreçleri ➔ AI Beyin Kökü** katmanları boyunca tüm veriler anlamsal kümelere ayrılarak gerçek zamanlı topolojik bir sinir ağı gibi görselleştirilir.
+1. **Dinamik 3D Semantik Sinir Topolojisi & Katman Hiyerarşisi:**
+   * Yapay zekanın öğrendiği tüm kavramlar, kurumsal veriler ve iş süreçleri 5 temel katmanda canlı sinaps bağlantılarıyla görselleştirilir:
+     * **Veri Altyapısı:** SQL, tablolar ve yapılandırılmamış veri kaynakları.
+     * **Güvenlik & Sistem:** İzinler, kurallar ve **AES-256 donanım düzeyinde disk şifreleme** standartları (Şekil 2'de detaylandırılmıştır).
+     * **Finans & Muhasebe:** Kasa hareketleri, kâr marjları ve vergi yükümlülükleri.
+     * **İş Süreçleri:** Sipariş yönetimi, operasyonel iş akışları ve servis entegrasyonları.
+     * **AI Beyin Kökü:** Tüm katmanlardan beslenen karar destek ve otonom yönetim merkezi.
 2. **VoiceBridge — Gerçek Zamanlı Ses Köprüsü:**
    * Tuşlara basmadan, konuşma bittiği anı algılayan VAD (Voice Activity Detection) algoritmalarıyla yapay zekaya sesli girdi sağlayan ve yanıtı anlık nöral ses senteziyle geri seslendiren düşük gecikmeli döngü.
 3. **İzole / Çevrimdışı Çalışma (Air-Gapped Modu):**
