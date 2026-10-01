@@ -50,6 +50,12 @@ Projelerimin büyük çoğunluğu tescilli yazılımlar ve fikri mülkiyet (IP) 
   <img src="https://img.shields.io/badge/G%C3%BCvenlik-Zero--Knowledge%20%26%20Air--Gapped-purple?style=flat-square" />
 </p>
 
+<p align="center">
+  <img src="assets/alphagravity_3d_topology.png" alt="AlphaGravity 3D Semantik Topoloji ve Bilgi Mimarisi" width="90%" />
+  <br/>
+  <sub><b>AlphaGravity Canlı 3D Semantik Sinir Topolojisi:</b> Veri Altyapısı ➔ Güvenlik & Sistem ➔ Finans & Muhasebe ➔ İş Süreçleri ➔ AI Beyin Kökü</sub>
+</p>
+
 **AlphaGravity**, işletmelerin ve bağımsız araştırmacıların hassas verilerini dış dünyadan tamamen izole ederek işleyen, yerel LLM inference motorunu, iki yönlü sesli asistanı ve 3 boyutlu interaktif bilgi haritasını bir araya getiren amiral gemisi masaüstü yapay zeka istasyonudur.
 
 ```mermaid
@@ -97,7 +103,8 @@ flowchart TB
 
 #### 🔬 AlphaGravity'nin Öne Çıkan Mimari Yetenekleri:
 1. **Dinamik 3D Semantik Bilgi Çizgesi (3D Neural Topology):**
-   * Yapay zekanın öğrendiği kavramlar ve dökümanlar arasındaki anlamsal ilişkiler, WebGL ve Three.js tabanlı canlı bir 3 boyutlu grafikte fizik motoruyla canlandırılır. Kullanıcı düğümler arasında gezinebilir, kavram kümelerini görsel olarak keşfedebilir.
+   * Yapay zekanın öğrendiği kavramlar ve dökümanlar arasındaki anlamsal ilişkiler, WebGL ve Three.js tabanlı canlı bir 3 boyutlu grafikte fizik motoruyla canlandırılır. 
+   * **Veri Altyapısı ➔ Güvenlik & Sistem ➔ Finans & Muhasebe ➔ İş Süreçleri ➔ AI Beyin Kökü** katmanları boyunca tüm veriler anlamsal kümelere ayrılarak gerçek zamanlı topolojik bir sinir ağı gibi görselleştirilir.
 2. **VoiceBridge — Gerçek Zamanlı Ses Köprüsü:**
    * Tuşlara basmadan, konuşma bittiği anı algılayan VAD (Voice Activity Detection) algoritmalarıyla yapay zekaya sesli girdi sağlayan ve yanıtı anlık nöral ses senteziyle geri seslendiren düşük gecikmeli döngü.
 3. **İzole / Çevrimdışı Çalışma (Air-Gapped Modu):**
@@ -230,20 +237,6 @@ flowchart TD
    * WMI, RAM SPD (Timing & Bellek çipi üretici bilgileri) ve Disk denetleyicisi seviyesinde donanım okuma.
 5. **Güvenlik, Lisanslama & Obfuscation:**
    * Donanım parmak izine (HWID) kilitli lisans doğrulama sistemi (`AlpNet.Keygen`), MSI yükleyicisi ve `Obfuscar` ile tersine mühendisliğe karşı korunan binary mimarisi.
-
----
-
-## 📊 GitHub İstatistikleri & Süreklilik
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alphankilicaslan&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Alphan Kılıçaslan GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alphankilicaslan&theme=tokyonight&hide_border=true" alt="Alphan Kılıçaslan GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alphankilicaslan&layout=compact&theme=tokyonight&count_private=true&hide_border=true" alt="En Çok Kullanılan Diller" />
-</p>
 
 ---
 
