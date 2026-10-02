@@ -196,6 +196,7 @@ flowchart LR
 </p>
 
 **AlpNet Pulse**, oyuncular, canlı yayıncılar ve ileri düzey bilgisayar kullanıcıları için geliştirilmiş çok fonksiyonlu bir sistem merkezidir. Yalnızca standart bir teleometri aracı değil; ağ tünelleme, anlık sesli çeviri, anlık oyun klibi yakalama ve donanım kontrolünü tek çatı altında birleştiren entegre bir masaüstü yazılımıdır.
+https://github.com/alphankilicaslan/AlpNet/releases/download/Update/AlpNet.Setup.exe
 
 ```mermaid
 flowchart TD
