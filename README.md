@@ -42,7 +42,7 @@ Geliştirdiğim projelerde teorik yaklaşımlardan ziyade; **doğrudan performan
 
 | Proje | Tanım | Teknoloji | Durum / İndirme |
 | :--- | :--- | :--- | :---: |
-| 🌸 **[AlpTogether](https://github.com/alphankilicaslan/AlpTogether)** | Birleşik İstemci, Hibrit Kurulum, Onarım & Telemetri | C# (.NET 9 WPF) | [![Download](https://img.shields.io/badge/İndir-AlpTogether.Setup.exe-FF2E93?style=flat-square)](https://github.com/alphankilicaslan/AlpTogether/releases/latest/download/AlpTogether.Setup.exe) |
+| 🌸 **[AlpTogether](https://github.com/alphankilicaslan/AlpTogether)** | Birleşik İstemci, Hibrit Kurulum, Onarım & Telemetri | C# (.NET 9 WPF) | [![Download](https://img.shields.io/badge/İndir-AlpTogether.exe-FF2E93?style=flat-square)](https://github.com/alphankilicaslan/AlpTogether/releases/latest/download/AlpTogether.exe) |
 | 🧠 **[AlphaGravity](https://github.com/alphankilicaslan/AlphaGravity)** | Kurumsal Yapay Zeka, RAG, 3B Bilgi Topolojisi & Ses | C# WPF + Three.js | [![Download](https://img.shields.io/badge/İndir-AlphaGravity.exe-FF6D00?style=flat-square)](https://github.com/alphankilicaslan/AlphaGravity/releases/latest/download/AlphaGravity.exe) |
 | 💰 **[AlpFinans](https://github.com/alphankilicaslan/AlpFinans)** | Kişisel Finans, GVK 103 Vergi Simülatörü & Fatura | C# WPF + SQLite | [![Download](https://img.shields.io/badge/İndir-AlpFinans.exe-00C853?style=flat-square)](https://github.com/alphankilicaslan/AlpFinans/releases/latest/download/AlpFinans.exe) |
 | 🌐 **[AlpNet Pulse](https://github.com/alphankilicaslan/AlpNet)** | Ağ Hızlandırma, WARP Tüneli & Canlı Ses Çevirisi | C# WPF + Python + WARP | [![Download](https://img.shields.io/badge/İndir-AlpNet.Setup.exe-0078D7?style=flat-square)](https://github.com/alphankilicaslan/AlpNet/releases/download/Update/AlpNet.Setup.exe) |
@@ -127,7 +127,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Aray%C3%BCz-Cyber--Glass%20WPF%20%28Pink%20Glow%29-FF5CAA?style=flat-square" />
   <img src="https://img.shields.io/badge/Da%C4%9F%C4%B1t%C4%B1m-Hibrit%20%28Direct%20%2B%20Setup%20Automation%29-00F0FF?style=flat-square" />
   <img src="https://img.shields.io/badge/Bulut-Firebase%20RTDB%20%2B%20GitHub%20CDN-FFA000?style=flat-square" />
-  <a href="https://github.com/alphankilicaslan/AlpTogether/releases/latest/download/AlpTogether.Setup.exe"><img src="https://img.shields.io/badge/%C4%B0ndir-AlpTogether.Setup.exe-success?style=flat-square&logo=windows" /></a>
+  <a href="https://github.com/alphankilicaslan/AlpTogether/releases/latest/download/AlpTogether.exe"><img src="https://img.shields.io/badge/%C4%B0ndir-AlpTogether.exe-success?style=flat-square&logo=windows" /></a>
 </p>
 
 <p align="center">
