@@ -47,7 +47,7 @@ Geliştirdiğim projelerde teorik yaklaşımlardan ziyade; **doğrudan performan
 | 💰 **[AlpFinans](https://github.com/alphankilicaslan/AlpFinans)** | Kişisel Finans, GVK 103 Vergi Simülatörü & Fatura | C# WPF + SQLite | [![Download](https://img.shields.io/badge/İndir-AlpFinans.exe-00C853?style=flat-square)](https://github.com/alphankilicaslan/AlpFinans/releases/latest/download/AlpFinans.exe) |
 | 🌐 **[AlpNet Pulse](https://github.com/alphankilicaslan/AlpNet)** | Ağ Hızlandırma, WARP Tüneli & Canlı Ses Çevirisi | C# WPF + Python + WARP | [![Download](https://img.shields.io/badge/İndir-AlpNet.Setup.exe-0078D7?style=flat-square)](https://github.com/alphankilicaslan/AlpNet/releases/download/Update/AlpNet.Setup.exe) |
 | ⚡ **[AlpRust+](https://github.com/alphankilicaslan/AlpRustPlus)** | Rust+ Akıllı Cihaz, Kamera & Raid Alarm Merkezi | C# WPF + WebSocket | [![Download](https://img.shields.io/badge/İndir-AlpRustPlus.zip-CD412B?style=flat-square)](https://github.com/alphankilicaslan/AlpRustPlus/releases/latest/download/AlpRustPlus-win-x64.zip) |
-| 🔤 **[AlpLingo](https://github.com/alphankilicaslan/AlpLingo)** | Gerçek Zamanlı AI Ekran & Oyun Çevirici (OCR Overlay) | C# / Win32 + Python OCR | [![Download](https://img.shields.io/badge/İndir-AlpLingo.exe-7928CA?style=flat-square)](https://github.com/alphankilicaslan/AlpLingo/releases/latest/download/AlpLingo.exe) |
+| 🔤 **[AlpLingo](https://github.com/alphankilicaslan/AlpLingo)** | Gerçek Zamanlı AI Ekran & Oyun Çevirici (OCR Overlay) | C# / Win32 + Python OCR | [![Download](https://img.shields.io/badge/İndir-AlpLingo.zip-7928CA?style=flat-square)](https://github.com/alphankilicaslan/AlpLingo/releases/latest/download/AlpLingo-win-x64.zip) |
 
 ---
 
@@ -255,7 +255,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Aray%C3%BCz-Win32%20Click--Through%20Overlay-0070F3?style=flat-square" />
   <img src="https://img.shields.io/badge/OCR-G%C3%B6rsel%20Metin%20Tan%C4%B1ma-FF0080?style=flat-square" />
   <img src="https://img.shields.io/badge/Yapay%20Zeka-Anlamsal%20%C3%87eviri%20Motoru-00DF72?style=flat-square" />
-  <a href="https://github.com/alphankilicaslan/AlpLingo/releases/latest/download/AlpLingo.exe"><img src="https://img.shields.io/badge/%C4%B0ndir-AlpLingo.exe-success?style=flat-square&logo=windows" /></a>
+  <a href="https://github.com/alphankilicaslan/AlpLingo/releases/latest/download/AlpLingo-win-x64.zip"><img src="https://img.shields.io/badge/%C4%B0ndir-AlpLingo--win--x64.zip-success?style=flat-square&logo=windows" /></a>
 </p>
 
 **AlpLingo**, Türkçe dil desteği olmayan oyunlar, teknik yazılımlar ve yabancı dildeki masaüstü uygulamaları için geliştirilmiş; ekrandaki seçili bölgeyi veya tam ekranı gerçek zamanlı optik karakter tanıma (OCR) ile okuyup yapay zeka ile anında çeviren ve oyun deneyimini kesintiye uğratmadan şeffaf tıklama-geçirgen bir HUD katmanıyla ekrana yansıtan yardımcı çeviri istasyonudur.
