@@ -66,65 +66,40 @@ Geliştirdiğim projelerde teorik yaklaşımlardan ziyade; **doğrudan performan
   <a href="https://github.com/alphankilicaslan/AlphaGravity/releases/latest/download/AlphaGravity.exe"><img src="https://img.shields.io/badge/%C4%B0ndir-AlphaGravity.exe-success?style=flat-square&logo=windows" /></a>
 </p>
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/alphagravity_3d_topology.png" alt="AlphaGravity 3D Semantik Sinir Topolojisi" width="100%" />
-      <br/>
-      <sub><b>Şekil 1: Canlı 3D Semantik Sinir Topolojisi</b><br/>Tüm kurumsal katmanların canlı bağlantı ve sinaps matrisi</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/alphagravity_node_inspection.png" alt="AlphaGravity İnteraktif Düğüm & Kriptografik İnceleme" width="100%" />
-      <br/>
-      <sub><b>Şekil 2: İnteraktif Düğüm & Sinaps İncelemesi</b><br/>"GÜVENLİK & SİSTEM" altında donanım düzeyinde AES-256 disk şifreleme ve sinaps analizi</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table width="80%">
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/alphagravity_3d_topology.png" alt="AlphaGravity 3D Semantik Sinir Topolojisi" width="100%" />
+        <br/>
+        <sub><b>Şekil 1: Canlı 3D Semantik Sinir Topolojisi</b><br/>Tüm kurumsal katmanların canlı bağlantı matrisi</sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/alphagravity_node_inspection.png" alt="AlphaGravity İnteraktif Düğüm & Kriptografik İnceleme" width="100%" />
+        <br/>
+        <sub><b>Şekil 2: İnteraktif Düğüm & Sinaps İncelemesi</b><br/>AES-256 disk şifreleme ve sinaps analizi</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 **AlphaGravity**, işletmelerin ve bağımsız araştırmacıların hassas verilerini dış dünyadan tamamen izole ederek işleyen, yerel LLM inference motorunu, iki yönlü sesli asistanı ve 3 boyutlu interaktif bilgi haritasını bir araya getiren amiral gemisi masaüstü yapay zeka istasyonudur.
 
+<details>
+<summary><b>📐 AlphaGravity Sistem Mimari Akış Şeması (Genişletmek için tıklayın)</b></summary>
+<br/>
+
 ```mermaid
-flowchart TB
-    subgraph Presentation["Modern Masaüstü Sunum Katmanı"]
-        WPF_App[C# WPF Native Uygulama Kabuğu]
-        WebView[WebView2 Donanım Hızlandırmalı Render Motoru]
-        ThreeJS["3 Boyutlu Dinamik Semantik Çizge (Three.js / WebGL)"]
-        WPF_App --> WebView --> ThreeJS
-    end
-
-    subgraph Audio_Pipeline["VoiceBridge Çift Yönlü Ses Katmanı"]
-        Mic[Mikrofon Girişi & VAD Filtresi]
-        SpeechRec[Gerçek Zamanlı Konuşma Algılama]
-        NeuralTTS[Düşük Gecikmeli Nöral Ses Sentezi]
-        Mic --> SpeechRec
-    end
-
-    subgraph Intelligent_Core["AlphaGravity Orkestrasyon Çekirdeği"]
-        ModelRouter{Akıllı Model Yönlendirici}
-        Local_Inference["Yerel Model Motoru (Scratch / Quantized Engine - Tamamen Çevrimdışı)"]
-        Cloud_Gateway["Şifreli API Kasası (Vault Korumalı Dış Modeller)"]
-        ModelRouter -->|Hassas & Gizli Veri| Local_Inference
-        ModelRouter -->|Geniş Kapsamlı Araştırma| Cloud_Gateway
-    end
-
-    subgraph Knowledge_Base["Kurumsal Bilgi Bankası & Vektör RAG"]
-        FileIngest[Doküman Yükleyici .MD, .TXT, .PDF]
-        VectorEngine[Anlamsal Parçalama & Bellek-İçi Vektör İndeksi]
-        FileIngest --> VectorEngine
-    end
-
-    subgraph Reliability["Güvenilirlik & Analitik"]
-        Checkpoints[Tek Tıkla Deterministik Geri Yükleme & Snapshot]
-        Reports[Öğrenme ve Çıkarım Doğruluk Raporları]
-    end
-
-    Presentation <--> Intelligent_Core
-    SpeechRec --> Intelligent_Core
-    Intelligent_Core --> NeuralTTS
-    Intelligent_Core <--> Knowledge_Base
-    Intelligent_Core --> Reliability
-    Knowledge_Base -.->|Anlamsal Düğüm İlişkileri| ThreeJS
+flowchart LR
+    UI["💻 C# WPF & 3D Three.js"] <--> Router{"🧠 Model Router"}
+    Mic["🎙️ VoiceBridge (VAD)"] --> Router
+    Router --> TTS["🔊 Nöral TTS"]
+    Router <--> Local["🔒 Yerel Model (Scratch / Quantized)"]
+    Router <--> Cloud["☁️ Şifreli API Kasası"]
+    Router <--> RAG["📚 Vektör RAG Bilgi Bankası"]
 ```
+
+</details>
 
 #### 🔬 AlphaGravity'nin Öne Çıkan Mimari Yetenekleri:
 1. **Dinamik 3D Semantik Sinir Topolojisi & Katman Hiyerarşisi:**
@@ -161,44 +136,20 @@ flowchart TB
 
 **AlpTogether**, tüm Alphan Kılıçaslan masaüstü yazılımlarını (AlpNet Pulse, AlpFinans, AlphaGravity, AlpRust+, AlpLingo) tek bir merkezden yöneten, Steam ve Riot Games istemcileri mimarisinde geliştirilmiş hibrit bir istemci ve ekosistem launcher'ıdır. Uygulamalar istemcinin içine gömülmez; merkezi bulut kataloğundan dinamik olarak çekilir, doğrulanır, tek tıkla kurulur, güncellenir ve onarılır.
 
+<details>
+<summary><b>📐 AlpTogether Sistem Mimari Akış Şeması (Genişletmek için tıklayın)</b></summary>
+<br/>
+
 ```mermaid
-flowchart TD
-    subgraph UI_Layer["AlpTogether Siber-Cam Arayüzü (C# .NET 9 WPF)"]
-        GlassWindow["Akıcı Siber-Cam Arayüzü (#09050E + Neon Pembe #FF2E93)"]
-        AppGrid[Dinamik Kart Matrisi - Canlı Durum & Badge Göstergeleri]
-        Drawer[Sürüm Karşılaştırıcı, Değişiklik Günlüğü & Onarım Çekmecesi]
-        HelpDesk[Entegre Hata Bildirimi & Geliştirici Telemetri Masası]
-    end
-
-    subgraph Core_Engine["Hibrit Kurulum & Süreç Süpervizörü"]
-        CatalogSyncer[Katalog Yöneticisi - Yerel Önbellek + Bulut Birleştirme]
-        HybridRouter{Hibrit Mod Yönlendirici}
-        DirectMode[Taşınabilir Tekli Exe & Bağımlılık İndirici]
-        InstallerMode[Sessiz / Otomatik Setup Yürütücü - /auto & MSI]
-        IntegrityVerifier[MD5 & Boyut Bütünlüğü Doğrulayıcı]
-        AutoRepair[Bozuk / Eksik Dosyaları Otomatik Onarma Motoru]
-        ProcManager[Win32 Canlı Süreç & Pencereleri İzleme Motoru]
-    end
-
-    subgraph Cloud_CDN["Uzak Katalog & Global Dağıtım Altyapısı"]
-        FirebaseDB[("Firebase Realtime DB - Canlı Sürüm Matrisi & Duyurular")]
-        GitHubCDN[("GitHub Releases Global CDN - Resmi Binary Deposu")]
-        TelemetryPipe[("Canlı Çökme & Telemetri Kayıt Boru Hattı")]
-    end
-
-    UI_Layer <--> CatalogSyncer
-    CatalogSyncer <--> FirebaseDB
-    CatalogSyncer --> AppGrid
-    AppGrid --> HybridRouter
-    HybridRouter -->|Taşınabilir / Bağımsız Dosya| DirectMode
-    HybridRouter -->|Kurulum Sihirbazı / Setup Paketi| InstallerMode
-    DirectMode & InstallerMode <--> GitHubCDN
-    DirectMode & InstallerMode --> IntegrityVerifier
-    IntegrityVerifier -.->|Bozulma Tespit Edildiğinde| AutoRepair
-    IntegrityVerifier --> ProcManager
-    ProcManager --> GlassWindow
-    HelpDesk --> TelemetryPipe
+flowchart LR
+    UI["🌸 Cyber-Glass WPF"] <--> Core["⚙️ Hibrit Kurulum & Onarım Motoru"]
+    Core <--> Firebase[("🔥 Firebase RTDB (Katalog)")]
+    Core <--> GitHub[("📦 GitHub Releases CDN")]
+    Core --> Proc["⚡ Win32 Süreç İzleyici & Başlatıcı"]
+    UI --> Telemetry["🔔 Canlı Telemetri & Destek"]
 ```
+
+</details>
 
 #### 🔍 AlpTogether'ın Çözdüğü Problemler ve Özellikleri:
 1. **Merkezi Dağıtım & Bağımsız Modüler Mimari:**
@@ -226,40 +177,19 @@ flowchart TD
 
 **AlpFinans**, şahıs şirketleri, serbest çalışan programcılar ve KOBİ'ler için geliştirilmiş; yalnızca geçmiş harcamaları tutmakla kalmayıp Türkiye Vergi Mevzuatına göre **gelecekteki vergi yükünü ve gerçek net kârı kuruşu kuruşuna hesaplayan** gelişmiş bir finansal karar destek sistemidir.
 
+<details>
+<summary><b>📐 AlpFinans Sistem Mimari Akış Şeması (Genişletmek için tıklayın)</b></summary>
+<br/>
+
 ```mermaid
 flowchart LR
-    subgraph Girdiler["Kullanıcı Girdileri"]
-        Brut[Brüt Gelir Faturaları]
-        Gider[Şirket Giderleri & Harcamalar]
-        Genc[Genç Girişimci Muafiyeti Durumu]
-    end
-
-    subgraph Hesaplama["AlpFinans Simülasyon Motoru"]
-        KDV[KDV Dengesi: Gelir KDV - Gider KDV]
-        Matrah[Vergi Matrahı Hesabı]
-        GVK[GVK 103 Dilimleri: %15, %20, %27, %35, %40]
-        Kalkan[Vergi Kalkanı Avantaj Analizi]
-        NetHesap[Cebe Kalan Net Nakit Formülü]
-
-        Brut & Gider --> KDV
-        Brut & Gider & Genc --> Matrah
-        Matrah --> GVK
-        Gider --> Kalkan
-        GVK & KDV & Brut --> NetHesap
-    end
-
-    subgraph Ciktilar["Stratejik Karar Çıktıları"]
-        R1[Ödenecek Net KDV]
-        R2[Dönem Gelir Vergisi Yükü]
-        R3[Giderin Sağladığı Vergi Avantajı]
-        R4[Cebe Kalan Net Harcanabilir Nakit]
-    end
-
-    KDV --> R1
-    GVK --> R2
-    Kalkan --> R3
-    NetHesap --> R4
+    Inputs["📥 Faturalar & Giderler"] --> TaxEngine["⚙️ GVK 103 & KDV Matrahı"]
+    TaxEngine --> Shield["🛡️ Vergi Kalkanı Avantajı"]
+    TaxEngine --> NetCash["💰 Cebe Kalan Net Nakit"]
+    NetCash --> Sim["📈 12-36 Aylık Birikim Projeksiyonu"]
 ```
+
+</details>
 
 #### 🔍 AlpFinans'ın Çözdüğü Problemler ve Özellikleri:
 1. **"Ay Sonunda Cebime Ne Kalacak?" Sorusuna Kesin Yanıt:**
@@ -287,41 +217,19 @@ flowchart LR
 
 **AlpNet Pulse**, oyuncular, canlı yayıncılar ve ileri düzey bilgisayar kullanıcıları için geliştirilmiş çok fonksiyonlu bir sistem merkezidir. Yalnızca standart bir teleometri aracı değil; ağ tünelleme, anlık sesli çeviri, anlık oyun klibi yakalama ve donanım kontrolünü tek çatı altında birleştiren entegre bir masaüstü yazılımıdır.
 
+<details>
+<summary><b>📐 AlpNet Pulse Sistem Mimari Akış Şeması (Genişletmek için tıklayın)</b></summary>
+<br/>
+
 ```mermaid
-flowchart TD
-    subgraph AlpNet_Core["AlpNet Pulse Çekirdeği (C# WPF & Sistem Katmanı)"]
-        UI[WPF Modern Arayüz & Bildirim Alanı]
-        Hotkeys[Global Kısayol Tuş Dinleyicisi]
-        Settings[PulseAppSettings & Replay Yapılandırması]
-    end
-
-    subgraph Network_Engine["Ağ & Tünelleme Katmanı"]
-        Warp[WarpManager - Cloudflare WARP & WireGuard]
-        WiFi[NativeWifi - Wi-Fi Sinyal & Ağ Analitiği]
-        Split[SplitWire - Uygulama Bazlı Trafik Yönlendirme]
-    end
-
-    subgraph Audio_Translation["Ses & Anlık Çeviri Hattı"]
-        AudioIn[Mikrofon & Sistem Sesi Girişi]
-        Surround[SurroundToStereo Dönüştürücü]
-        VoiceTrans[Canlı Sesli Çeviri Modülü - Python STT/TTS]
-        AudioOut[VBCable / Kulaklık Çıkışı]
-        AudioIn --> Surround --> VoiceTrans --> AudioOut
-    end
-
-    subgraph Hardware_Media["Donanım Telemetrisi & Medya"]
-        Hardware[RAM SPD & Disk Bilgi Teşhis Kütüphanesi]
-        FFmpeg[FFmpegManager - Düşük Gecikmeli Replay / Klip Kaydı]
-        Player[Entegre Video Oynatıcı Penceresi]
-        Discord[Discord Rich Presence Entegrasyonu]
-    end
-
-    UI --> Network_Engine
-    UI --> Audio_Translation
-    UI --> Hardware_Media
-    Hotkeys --> FFmpeg
-    FFmpeg --> Player
+flowchart LR
+    Core["🖥️ AlpNet Pulse WPF"] --> Net["🌐 WARP & WireGuard Tüneli"]
+    Core --> Audio["🎧 Canlı Ses Çevirisi & STT/TTS"]
+    Core --> Media["🎬 GPU FFmpeg Klip & Replay"]
+    Core --> HW["📊 RAM SPD & Donanım Teşhisi"]
 ```
+
+</details>
 
 #### 🔍 AlpNet Pulse'ın Çözdüğü Problemler ve Özellikleri:
 1. **Akıllı Ağ Yönlendirme & WARP Tünelleme (WarpManager & SplitWire):**
@@ -352,28 +260,19 @@ flowchart TD
 
 **AlpLingo**, Türkçe dil desteği olmayan oyunlar, teknik yazılımlar ve yabancı dildeki masaüstü uygulamaları için geliştirilmiş; ekrandaki seçili bölgeyi veya tam ekranı gerçek zamanlı optik karakter tanıma (OCR) ile okuyup yapay zeka ile anında çeviren ve oyun deneyimini kesintiye uğratmadan şeffaf tıklama-geçirgen bir HUD katmanıyla ekrana yansıtan yardımcı çeviri istasyonudur.
 
+<details>
+<summary><b>📐 AlpLingo Sistem Mimari Akış Şeması (Genişletmek için tıklayın)</b></summary>
+<br/>
+
 ```mermaid
 flowchart LR
-    subgraph Capture_Engine["Ekran Yakalama & Girdi"]
-        Trigger[Global Kısayol Tuşu - F9 / Ctrl+T]
-        Win32Capture[Win32 GDI & BitBlt Ekran Yakalayıcı]
-        AreaSelect[Dinamik Dikdörtgen Seçim Alanı / Tam Ekran]
-        Trigger --> Win32Capture --> AreaSelect
-    end
-
-    subgraph Vision_AI["Görüntü İşleme & Yapay Zeka"]
-        Filter[Kontrast Artırma & Gürültü Filtresi]
-        OCR_Engine[OCR Optik Karakter Tanıma Motoru]
-        SemanticTranslate[Yapay Zeka Anlamsal Çeviri Motoru]
-        AreaSelect --> Filter --> OCR_Engine --> SemanticTranslate
-    end
-
-    subgraph ClickThrough_HUD["Şeffaf HUD Altyazı Katmanı"]
-        TransparentWindow["Win32 WS_EX_TRANSPARENT Tıklama-Geçirgen Pencere"]
-        SubtitleBox[Okunaklı Yarı-Saydam Altyazı Kutusu & Dinamik Boyut]
-        SemanticTranslate --> TransparentWindow --> SubtitleBox
-    end
+    Hotkey["⌨️ F9 Kısayol Tuşu"] --> GDI["📸 Win32 GDI Ekran Yakalama"]
+    GDI --> OCR["👁️ AI Optik Metin Tanıma"]
+    OCR --> AI["🌐 Anlamsal Çeviri Motoru"]
+    AI --> HUD["🪟 Şeffaf Tıklama-Geçirgen HUD"]
 ```
+
+</details>
 
 #### 🔍 AlpLingo'nun Çözdüğü Problemler ve Özellikleri:
 1. **Oyun İçi Tıklama-Geçirgen (Click-Through) HUD Katmanı:**
