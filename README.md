@@ -38,7 +38,20 @@ Geliştirdiğim projelerde teorik yaklaşımlardan ziyade; **doğrudan performan
 
 ---
 
-## 🌟 Öne Çıkan Projeler & Kapsamlı Sistem İncelemeleri
+## 🌟 Alp Ekosistemi & Öne Çıkan Projeler
+
+| Proje | Tanım | Teknoloji | Durum / İndirme |
+| :--- | :--- | :--- | :---: |
+| 🌸 **[AlpTogether](https://github.com/alphankilicaslan/AlpTogether)** | Birleşik İstemci, Hibrit Kurulum, Onarım & Telemetri | C# (.NET 9 WPF) | [![Download](https://img.shields.io/badge/İndir-AlpTogether.Setup.exe-FF2E93?style=flat-square)](https://github.com/alphankilicaslan/AlpTogether/releases/latest/download/AlpTogether.Setup.exe) |
+| 🧠 **[AlphaGravity](https://github.com/alphankilicaslan/AlphaGravity)** | Kurumsal Yapay Zeka, RAG, 3B Bilgi Topolojisi & Ses | C# WPF + Three.js | [![Download](https://img.shields.io/badge/İndir-AlphaGravity.exe-FF6D00?style=flat-square)](https://github.com/alphankilicaslan/AlphaGravity/releases/latest/download/AlphaGravity.exe) |
+| 💰 **[AlpFinans](https://github.com/alphankilicaslan/AlpFinans)** | Kişisel Finans, GVK 103 Vergi Simülatörü & Fatura | C# WPF + SQLite | [![Download](https://img.shields.io/badge/İndir-AlpFinans.exe-00C853?style=flat-square)](https://github.com/alphankilicaslan/AlpFinans/releases/latest/download/AlpFinans.exe) |
+| 🌐 **[AlpNet Pulse](https://github.com/alphankilicaslan/AlpNet)** | Ağ Hızlandırma, WARP Tüneli & Canlı Ses Çevirisi | C# WPF + Python + WARP | [![Download](https://img.shields.io/badge/İndir-AlpNet.Setup.exe-0078D7?style=flat-square)](https://github.com/alphankilicaslan/AlpNet/releases/download/Update/AlpNet.Setup.exe) |
+| ⚡ **[AlpRust+](https://github.com/alphankilicaslan/AlpRustPlus)** | Rust+ Akıllı Cihaz, Kamera & Raid Alarm Merkezi | C# WPF + WebSocket | [![Download](https://img.shields.io/badge/İndir-AlpRustPlus.zip-CD412B?style=flat-square)](https://github.com/alphankilicaslan/AlpRustPlus/releases/latest/download/AlpRustPlus-win-x64.zip) |
+| 🔤 **[AlpLingo](https://github.com/alphankilicaslan/AlpLingo)** | Gerçek Zamanlı AI Ekran & Oyun Çevirici (OCR Overlay) | C# / Win32 + Python OCR | [![Download](https://img.shields.io/badge/İndir-AlpLingo.exe-7928CA?style=flat-square)](https://github.com/alphankilicaslan/AlpLingo/releases/latest/download/AlpLingo.exe) |
+
+---
+
+## 🔬 Kapsamlı Sistem & Mimari İncelemeleri
 
 ---
 
@@ -53,17 +66,20 @@ Geliştirdiğim projelerde teorik yaklaşımlardan ziyade; **doğrudan performan
   <a href="https://github.com/alphankilicaslan/AlphaGravity/releases/latest/download/AlphaGravity.exe"><img src="https://img.shields.io/badge/%C4%B0ndir-AlphaGravity.exe-success?style=flat-square&logo=windows" /></a>
 </p>
 
-<p align="center">
-  <img src="assets/alphagravity_3d_topology.png" alt="AlphaGravity 3D Semantik Topoloji ve Bilgi Mimarisi" width="95%" />
-  <br/>
-  <sub><b>Şekil 1: AlphaGravity Canlı 3D Semantik Sinir Topolojisi</b> — Tüm kurumsal katmanların canlı bağlantı matrisi</sub>
-</p>
-
-<p align="center">
-  <img src="assets/alphagravity_node_inspection.png" alt="AlphaGravity İnteraktif Düğüm & Kriptografik AES-256 İncelemesi" width="95%" />
-  <br/>
-  <sub><b>Şekil 2: İnteraktif Düğüm & Sinaps İnceleme Modu</b> — "GÜVENLİK & SİSTEM" katmanı altında donanım düzeyinde AES-256 disk şifreleme ve aktif sinaps bağlarının analizi</sub>
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/alphagravity_3d_topology.png" alt="AlphaGravity 3D Semantik Sinir Topolojisi" width="100%" />
+      <br/>
+      <sub><b>Şekil 1: Canlı 3D Semantik Sinir Topolojisi</b><br/>Tüm kurumsal katmanların canlı bağlantı ve sinaps matrisi</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/alphagravity_node_inspection.png" alt="AlphaGravity İnteraktif Düğüm & Kriptografik İnceleme" width="100%" />
+      <br/>
+      <sub><b>Şekil 2: İnteraktif Düğüm & Sinaps İncelemesi</b><br/>"GÜVENLİK & SİSTEM" altında donanım düzeyinde AES-256 disk şifreleme ve sinaps analizi</sub>
+    </td>
+  </tr>
+</table>
 
 **AlphaGravity**, işletmelerin ve bağımsız araştırmacıların hassas verilerini dış dünyadan tamamen izole ederek işleyen, yerel LLM inference motorunu, iki yönlü sesli asistanı ve 3 boyutlu interaktif bilgi haritasını bir araya getiren amiral gemisi masaüstü yapay zeka istasyonudur.
 
